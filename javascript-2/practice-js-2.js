@@ -10,6 +10,7 @@
 */
 
 //CODE HERE
+const gitDefinition = `Git is a housing system to track and save projects. It allows you to stay organized with work production and coding production. It also allows individuals to collaborate together on projects since numerous people are able to access a certain repository and able to edit and revise within the repository`
 
 //////////////////PROBLEM 2////////////////////
 /*
@@ -18,6 +19,7 @@
 */
 
 //CODE HERE
+const gitHubDefinition = `GitHub is the website where repositories live`
 
 //////////////////PROBLEMS 3 - 9////////////////////
 /*
@@ -34,6 +36,10 @@
 */
 
 //CODE HERE
+const init = {
+    description: 'Used to initialize a new Git repository in the current directory',
+    code: 'git init'
+};
 
 //////////////////PROBLEM 4////////////////////
 /*
@@ -42,6 +48,10 @@
 */
 
 //CODE HERE
+const clone = {
+    description: `Used to create a copy of a remote Git repository`,
+    code: `git clone`
+}
 
 //////////////////PROBLEM 5////////////////////
 /*
@@ -50,6 +60,10 @@
 */
 
 //CODE HERE
+const status = {
+    description: `Used to view the current repository, changes, deletions`,
+    code: `git status`
+}
 
 //////////////////PROBLEM 6////////////////////
 /*
@@ -58,6 +72,10 @@
 */
 
 //CODE HERE
+const add = {
+    description: `Used to stage changes for commit`,
+    code: `git add .`
+}
 
 //////////////////PROBLEM 7////////////////////
 /*
@@ -66,6 +84,10 @@
 */
 
 //CODE HERE
+const commit = {
+    description: `Used to save staged commit to repository on GitHub and makes you add a description regarding what changes you've done`,
+    code: `git commit -m 'addedComment'`
+}
 
 //////////////////PROBLEM 8////////////////////
 /*
@@ -74,6 +96,10 @@
 */
 
 //CODE HERE
+const addRemote = {
+    description: `Used to add your local Git repository to a remote desk`,
+    code: `git remote add origin`
+}
 
 //////////////////PROBLEM 9////////////////////
 /*
@@ -82,3 +108,7 @@
 */
 
 //CODE HERE
+const push = {
+    description: `Used to upload code into GitHub once ready`,
+    code: ` git push origin main`
+}
